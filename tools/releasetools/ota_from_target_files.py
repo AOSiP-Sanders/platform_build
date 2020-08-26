@@ -1057,6 +1057,14 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   # Dump fingerprints
   script.Print("Target: {}".format(target_info.fingerprint))
 
+  script.Print("==========================================");
+  script.Print("           AOSiP Mod for sanders          ");
+  script.Print("------------------------------------------");
+  script.Print("          by Mayur @marshmello_61         ");
+  script.Print("------------------------------------------");
+  script.Print(" Liked my work ? - paypal.me/marshmello61 ");
+  script.Print("==========================================");
+
   device_specific.FullOTA_InstallBegin()
 
   CopyInstallTools(output_zip)
